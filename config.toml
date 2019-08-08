@@ -1,0 +1,24 @@
+baseURL = "https://danielschlomer.com/"
+languageCode = "en-us"
+title = "Daniel Schlomer"
+theme = "coder"
+
+[params]
+  author = "Daniel Schlomer"
+  info = "Software Developer"
+  avatarurl = "images/daniel-schlomer.jpg"
+  hideCredits = true
+  hideCopyright = true
+
+  [menu]
+    [[menu.main]]
+      name = "About"
+      url = "/about/"
+
+    [[menu.main]]
+      name = "Writings"
+      url = "/writings/"
+
+    [[menu.main]]
+      name = "Projects"
+      url = "/projects/"
