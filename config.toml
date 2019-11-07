@@ -9,6 +9,7 @@ theme = "coder"
   avatarurl = "images/daniel-schlomer.jpg"
   hideCredits = true
   hideCopyright = true
+  custom_css = ["css/main.css"]
 
   [menu]
     [[menu.main]]
