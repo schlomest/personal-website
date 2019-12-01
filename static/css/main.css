@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy&display=swap');
 
-body, a, h1, h2, h3, h4, h5, h6 {
+p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 2rem;
+    color: rgb(48, 50, 51);
+}
+
+.about h1 {
     font-family: 'Sorts Mill Goudy', serif;
     font-weight: normal;
-    font-size: 2em;
+}
+
+.about h2 {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: normal;
 }
