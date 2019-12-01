@@ -2,7 +2,7 @@
 title: "this / self / danielschlomer.com"
 date: 2019-12-01
 ---
-I created this website so I could showcase and write about my work. Right now “work” means projects I work on in my free time,  but that might change in the future. I don’t see this site becoming much more that a project portfolio, so I decided early on that a simple static site would fit my needs.
+I created this website so I could showcase and write about my work. Right now “work” means projects I work on in my free time,  but that might change in the future. I don’t see this site becoming much more than a project portfolio, so I decided early on that a simple static site would fit my needs.
 
 I evaluated a few options for building a static site but I ended up choosing the static site generator [Hugo](https://gohugo.io/). I wish I had an insightful reason for choosing Hugo. The documentation on Hugo’s site was good and deployments seemed easy based on my quick research. Beyond those two things I didn’t really care what technology I used. Hugo is popular so it seemed like a good choice.
 
