@@ -15,3 +15,7 @@ p {
     font-family: 'Sorts Mill Goudy', serif;
     font-weight: normal;
 }
+
+.avatar img {
+    width: 40rem;
+}
