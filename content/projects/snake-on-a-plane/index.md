@@ -2,7 +2,7 @@
 title: "Snake on a Plane"
 date: 2019-12-28
 ---
-In honor of Samuel L. Jackson’s 2006 thriller [*Snakes on a Plane*](https://www.imdb.com/title/tt0417148/), I decided to build the game Snake while on a plane using Python. Since long flights and delayed departures can lock people into one seat for an uncomfortable amount of time, I thought building a software project would be a great way to pass the time on my most recent vacation.
+In honor of Samuel L. Jackson’s 2006 movie [*Snakes on a Plane*](https://www.imdb.com/title/tt0417148/), I decided to build the game Snake while on a plane using Python. Since long flights and delayed departures can lock people into one seat for an uncomfortable amount of time, I thought building a software project would be a great way to pass the time on my most recent vacation.
 
 In order to make this project a challenge, I gave myself a few restrictions before I began.
 
@@ -65,8 +65,6 @@ I bound the standard game movement keys (arrow keys and WASD) to corresponding m
 
 ![Snake Movement 1](snake-move-1.png) ![Snake Movement 2](snake-move-2.png)
 
-At this point I had an understanding of how I could move a snake around the board. I could reuse the drawing code I wrote for filling in or removing squares on the board. The only difference was that the user shouldn’t manually move the snake into each position. The user only tells the snake when to turn. The snake should be moving on its own.
-
 To simulate the snake’s movement, I needed to update the snake’s position over time. In order to continually update the snake’s position over time, I opened a new thread after initializing the GUI widgets.
 
 ```python
@@ -122,4 +120,4 @@ There are a few bugs in my code. The movement thread doesn’t close properly if
 
 ![Complete Snake Game](snake-final.png)
 
-To view the final code or to run it yourself, check it out [here](https://bitbucket.org/schlomer/snake-on-a-plane/src/master/).
+To view the final code or to run it yourself, check it out [here](https://github.com/schlomest/snake-on-a-plane).

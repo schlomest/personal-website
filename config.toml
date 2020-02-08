@@ -17,9 +17,5 @@ theme = "coder"
       url = "/about/"
 
     [[menu.main]]
-      name = "Writings"
-      url = "/writings/"
-
-    [[menu.main]]
       name = "Projects"
       url = "/projects/"
