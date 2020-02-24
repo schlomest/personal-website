@@ -1,5 +1,5 @@
 ---
-title: "Visualizing 5 Years of My Movie Watching Habits"
+title: "Visualizing 5 Years of Movie Watching Habits"
 date: 2020-02-07
 ---
 
