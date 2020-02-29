@@ -42,8 +42,9 @@ board.pack(fill=BOTH, expand=1)
 
 To create the board, I drew an outer rectangle, followed by horizontal and vertical lines for the grid.
 
-![Static Snake Board](snake-board.png)
-
+<div class="image-container">
+    <img src="snake-board.png" alt="Initial Snake Board">
+</div>
 
 Drawing a static game board wasn’t difficult. The more complicated next step was to get a square moving on the board based on user input. Small incremental successes are better than getting lost in a large failure, so instead of trying to make the whole snake move, I tried at first to make only one square move.
 
@@ -63,7 +64,11 @@ self.master.bind("<s>", self.turn_down)
 
 I bound the standard game movement keys (arrow keys and WASD) to corresponding movement methods. Each movement method moved the current position of the square on the board. Thankfully a delayed flight gave me enough time to implement the left and right movement methods. By the time I landed in New York I had the up and down movement methods working as well.
 
-![Snake Movement 1](snake-move-1.png) ![Snake Movement 2](snake-move-2.png)
+
+<div class="image-container">
+    <img src="snake-move-1.png" alt="Snake Movement 1">
+    <img src="snake-move-2.png" alt="Snake Movement 2">
+</div>
 
 To simulate the snake’s movement, I needed to update the snake’s position over time. In order to continually update the snake’s position over time, I opened a new thread after initializing the GUI widgets.
 
@@ -118,6 +123,8 @@ The good thing about using lists is that the updates are relatively straightforw
 
 There are a few bugs in my code. The movement thread doesn’t close properly if you click the x button instead of the close button. I could’ve spent my remaining time polishing the code. I chose to play some snake instead.
 
-![Complete Snake Game](snake-final.png)
+<div class="image-container">
+    <img src="snake-final.png" alt="Completed Snake Game">
+</div>
 
 To view the final code or to run it yourself, check it out [here](https://github.com/schlomest/snake-on-a-plane).

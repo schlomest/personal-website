@@ -19,3 +19,8 @@ p {
 .avatar img {
     width: 40rem;
 }
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+}
